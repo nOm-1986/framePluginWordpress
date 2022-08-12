@@ -27,7 +27,7 @@ class PluginPoo
         dbDelta( $sql );
     }
 
-
+    //Ojo este método no lo puedo testear, para testearlo tendría que cargar Wordpress.
     public function init()
     {
         // crear menús de administración
