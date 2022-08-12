@@ -1,0 +1,22 @@
+Pequeño resumen para crear un plugin en Wordpress totalmente Orientado a Objetos.
+Vistita el blog para saber más:
+https://blog.artegrafico.net/creacion-de-plugins-en-wordpress-usando-programacion-orientada-a-objetos-y-php
+
+Cabe anotar que el blog de arriba incluye una buena practica de llamar al hook dentro de la clase no en el constructo.
+Más información: 
+https://desarrollowp.com/blog/tutoriales/programacion-orientada-a-objetos-sobre-wordpress/
+
+1 - Localización y estructura
+Importante ubicarlo dentro de la carpeta wp-content/plugins/ --carpeta con el nombre de mi plugin
+Para este ejemplo lo llamaremos --myPluginPOO
+
+
+2  - 
+3  -
+4  -
+5  - 
+6  - 
+7  -
+8  - 
+9  - 
+10 - 
