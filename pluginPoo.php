@@ -17,7 +17,7 @@ define('_PLUGIN_POO_URL', plugin_dir_url( __FILE__ ));
 //    is_admin(), nos permite determinar si la petición es realizada desde la interfaz administrativa de Wordpress.
 //    WP_CLI determina si la herramienta de gestión de línea de comandos está activada (por lo que nos permite realizar tareas para insertar, actualizar y eliminar datos).
 if( is_admin() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
-    require_once( _PLUGIN_POO_DIR . 'inc/PluginPoo.class.php' );
+    require_once( _PLUGIN_POO_DIR . 'src/PluginPoo.class.php' );
     
     $pluginPoo = new PluginPoo();
 
