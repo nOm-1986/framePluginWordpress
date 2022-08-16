@@ -1,0 +1,20 @@
+{
+    "name": "fbeltran/plugin-poo",
+    "description": "Plugin para integrar ADN y Wordpress",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PluginADN\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabian Beltran",
+            "email": "joshefbeltran@gmail.com"
+        }
+    ]
+}
